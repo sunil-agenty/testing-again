@@ -12,7 +12,7 @@ namespace testing_again
         static void Main(string[] args)
         {
             int n = 8;
-            for(int i=0;i<n;i++)
+            for(int i=0;i<n-1;i++)
             {
                 Console.WriteLine("count :",i);
             }
