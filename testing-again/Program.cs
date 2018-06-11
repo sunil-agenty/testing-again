@@ -8,10 +8,14 @@ namespace testing_again
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
-            Console.WriteLine("Hi Agenty Team, How are you?");
-            Console.ReadKey();
+            int n = 8;
+            for(int i=0;i<n;i++)
+            {
+                Console.WriteLine("count :",i);
+            }
         }
     }
 }
